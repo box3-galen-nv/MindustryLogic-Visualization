@@ -78,3 +78,8 @@ div.block-table div.block-head-start {
 div.block-table div.box-table {
     
 }
+
+body img#cursor {
+    position: fixed;
+    scale: 0.5;
+}
