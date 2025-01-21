@@ -1,0 +1,80 @@
+html {
+    cursor: none;
+}
+
+body {
+    background-color: hsl(0, 0%, 90%);
+    margin: 0px;
+}
+
+body div#navigation-bar {
+    background-color: hsl(49, 39%, 80%);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+div#navigation-bar div.navigation-bar-context {
+    color: black;
+    background-color: hsla(0, 0%, 0%, 0);
+    font-size: 17px;
+    display: block;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+body div#box-table {
+    width: 75px;
+    height: 750px;
+    background-color: hsl(49, 39%, 85%);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+div#box-table div.box {
+    height: 24px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+div.box img.box-pic {
+    width: 24px;
+    height: 24px;
+    background-color: hsla(0, 0%, 0%, 0);
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 50%);
+    border-radius: 50%;
+}
+
+div.box p.box-name {
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow:
+        -1.5px -1.5px 0px hsl(0, 0%, 50%),
+         1.5px -1.5px 0px hsl(0, 0%, 50%),
+        -1.5px  1.5px 0px hsl(0, 0%, 50%),
+         1.5px  1.5px 0px hsl(0, 0%, 50%);
+    display: inline;
+    width: 50px;
+    margin: 0px;
+    margin-left: 7px;
+}
+
+body div.block-table {
+    width: 100px;
+    height: 200px;
+}
+
+
+div.block-table div.block-head-start {
+    width: 10px;
+    height: 100%;
+}
+
+div.block-table div.box-table {
+    
+}
