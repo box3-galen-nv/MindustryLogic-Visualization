@@ -1,14 +1,28 @@
 *MindustryLogic图形化 -> MindustryLogic Visualization*
 ---
-    为了帮助不会 (或者是会的) mindustry的玩家也能用最简单的方式来实现最复杂的方法 -> In order to help players who do not know (or know) mindust to implement the most complex methods in the simplest way possible
+***目的 -> Purpose***
+
+>为了帮助不会 (或者是会的但又觉得原版写逻辑块的方式过于麻烦) 的mindustry的玩家解决问题 -> In order to help Mindustry players who do not know (or who know but find the original way of writing logic blocks too cumbersome) solve problems
 
 ---
-- 作者 -> Author: 盖伦awa -> Gailenawa
-- 账号 -> AccountNumber:
->+ GitHub: box3-galen-nv -> https://github.com/box3-galen-nv
->+ Bilibili: 是盖伦呀 -> https://space.bilibili.com/3546644142361385
->+
->+ 其他没有的就是没有 -> Anything else that doesn't exist is simply not available.
+***关于项目 -> About the project***
+>- 作者 -> Author: 盖伦awa -> [Gailenawa](https://github.com/box3-galen-nv)
+>- 联系方式 -> Contact:
+>>+ GitHub: box3-galen-nv -> https://github.com/box3-galen-nv
+>>+ Bilibili: 是盖伦呀 -> https://space.bilibili.com/3546644142361385
+>>+
+>>+ 其他账号没写的就是没有 -> What other accounts haven't written is simply not available
+
+---
+**使用方法**
+>1.把仓库克隆到本地 -> Clone the repository locally
+>>git -> `git clone https://github.com/box3-galen-nv/MindustryLogic-Visualization.git`
+>>
+>>url -> (https://github.com/box3-galen-nv/MindustryLogic-Visualization/archive/refs/heads/main.zip)
+
+>2.找个东西来在本地端口上托管此项目(比方说 [python]()) -> Host the project locally on a port
+
+
 
 - ······(剩下的等做完了再写) -> ······(I'll write it later)
 ---

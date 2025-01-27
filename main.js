@@ -13,19 +13,25 @@ const Cursor = {
         const img = document.createElement('img')
         img.src = api.data.mouseStyle
         return img
-    })(),
-    'width': (() => {return Cursor.GImg().width})(),
-    'height': (() => {return Cursor.GImg().height})(),
-}; console.log('数据加载完成')
+    }),
+    'width': (() => {
+        console.log(Cursor.img)
+        return Cursor.img().
+    }),
+    'height': (() => {return Cursor.img.height}),
+}
+
+console.log('数据加载完成')
 
 
 
-// document.addEventListener('mousemove', ((event) => {
-//     const mouseX = event.clientX
-//     const mouseY = event.clientY
-//     doc.Cursor.cursor.style.left = `${mouseX - doc.Cursor.GHeight / 2}px`
-//     doc.Cursor.cursor.style.top = `${mouseY - doc.Cursor.GWidth / 2}px`
-// }))
+document.addEventListener('mousemove', ((event) => {
+    const mouseX = event.clientX
+    const mouseY = event.clientY
+    Cursor.cursor.style.left = `${mouseX - Cursor.height / 2}px`
+    Cursor.cursor.style.top = `${mouseY - Cursor.width / 2}px`
+}))
+
 
 
 // document.onclick = ((event) => {
