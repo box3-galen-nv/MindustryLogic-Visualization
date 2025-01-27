@@ -1,10 +1,11 @@
 import * as main from './main.js'
 
 
-
-let boxList = []
-let mouseStyle = undefined
-let currentBlockTable = {block: undefined}
+let data = {
+    'boxList': [],
+    'mouseStyle': '',
+    'currentBlockTable': {block: undefined},
+}
 
 
 
@@ -30,7 +31,7 @@ class box {
         //     `
         //     document.getElementById('block-table').appendChild(blockDiv)
         // }
-        boxList.push(this)
+        data.boxList.push(this)
     }
 
     addBlock(newBlock) {
@@ -56,20 +57,12 @@ class block {
     }
 }
 
-function getMouseStyle() {return mouseStyle}
-function setMouseStyle(route) {mouseStyle = route}
 
-function getCurrentBlockTable() {return currentBlockTable}
-function setCurrentBlockTable(table) {currentBlockTable = {block: table}}
 
 
 
 export {
     box,
     block,
-    boxList,
-    setMouseStyle,
-    getMouseStyle,
-    setCurrentBlockTable,
-    getCurrentBlockTable,
-}
+    data,
+};
